@@ -1,0 +1,152 @@
+{
+  "device1": {
+    "name": "Device 1",
+    "standort": "Raum 1.02",
+    "status": "verfügbar"
+  },
+  "device2": {
+    "name": "Device 2",
+    "standort": "Raum 1.03",
+    "status": "verfügbar"
+  },
+  "device3": {
+    "name": "Device 3",
+    "standort": "Raum 1.04",
+    "status": "verfügbar"
+  },
+  "device4": {
+    "name": "Device 4",
+    "standort": "Raum 1.05",
+    "status": "verfügbar"
+  },
+  "device5": {
+    "name": "Device 5",
+    "standort": "Raum 2.01",
+    "status": "verfügbar"
+  },
+  "device6": {
+    "name": "Device 6",
+    "standort": "Raum 2.02",
+    "status": "verfügbar"
+  },
+  "device7": {
+    "name": "Device 7",
+    "standort": "Raum 2.03",
+    "status": "verfügbar"
+  },
+  "device8": {
+    "name": "Device 8",
+    "standort": "Raum 2.04",
+    "status": "verfügbar"
+  },
+  "device9": {
+    "name": "Device 9",
+    "standort": "Raum 2.05",
+    "status": "verfügbar"
+  },
+  "device10": {
+    "name": "Device 10",
+    "standort": "Raum 3.01",
+    "status": "verfügbar"
+  },
+  "device11": {
+    "name": "Device 11",
+    "standort": "Raum 3.02",
+    "status": "verfügbar"
+  },
+  "device12": {
+    "name": "Device 12",
+    "standort": "Raum 3.03",
+    "status": "verfügbar"
+  },
+  "device13": {
+    "name": "Device 13",
+    "standort": "Raum 3.04",
+    "status": "verfügbar"
+  },
+  "device14": {
+    "name": "Device 14",
+    "standort": "Raum 3.05",
+    "status": "verfügbar"
+  },
+  "device15": {
+    "name": "Device 15",
+    "standort": "Raum 4.01",
+    "status": "verfügbar"
+  },
+  "device16": {
+    "name": "Device 16",
+    "standort": "Raum 4.02",
+    "status": "verfügbar"
+  },
+  "device17": {
+    "name": "Device 17",
+    "standort": "Raum 4.03",
+    "status": "verfügbar"
+  },
+  "device18": {
+    "name": "Device 18",
+    "standort": "Raum 4.04",
+    "status": "verfügbar"
+  },
+  "device19": {
+    "name": "Device 19",
+    "standort": "Raum 4.05",
+    "status": "verfügbar"
+  },
+  "device20": {
+    "name": "Device 20",
+    "standort": "Raum 5.01",
+    "status": "verfügbar"
+  },
+  "device21": {
+    "name": "Device 21",
+    "standort": "Raum 5.02",
+    "status": "verfügbar"
+  },
+  "device22": {
+    "name": "Device 22",
+    "standort": "Raum 5.03",
+    "status": "verfügbar"
+  },
+  "device23": {
+    "name": "Device 23",
+    "standort": "Raum 5.04",
+    "status": "verfügbar"
+  },
+  "device24": {
+    "name": "Device 24",
+    "standort": "Raum 5.05",
+    "status": "verfügbar"
+  },
+  "device25": {
+    "name": "Device 25",
+    "standort": "Raum 6.01",
+    "status": "verfügbar"
+  },
+  "device26": {
+    "name": "Device 26",
+    "standort": "Raum 6.02",
+    "status": "verfügbar"
+  },
+  "device27": {
+    "name": "Device 27",
+    "standort": "Raum 6.03",
+    "status": "verfügbar"
+  },
+  "device28": {
+    "name": "Device 28",
+    "standort": "Raum 6.04",
+    "status": "verfügbar"
+  },
+  "device29": {
+    "name": "Device 29",
+    "standort": "Raum 6.05",
+    "status": "verfügbar"
+  },
+  "device30": {
+    "name": "Device 30",
+    "standort": "Raum 7.01",
+    "status": "verfügbar"
+  }
+}
