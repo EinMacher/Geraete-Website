@@ -423,7 +423,7 @@
     // 2. JSON-Tabelle laden
     let daten;
     try {
-      const response = await fetch('/assets/devices.json');
+      const response = await fetch('./assets/devices.json');
       if (!response.ok) throw new Error('Gerätedaten konnten nicht geladen werden: ' + response.status);
       daten = await response.json();
     } catch (err) {
