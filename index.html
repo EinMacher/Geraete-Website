@@ -178,6 +178,18 @@
       margin-top: 30px;
     }
     
+    .category-section {
+      margin-bottom: 50px;
+    }
+    
+    .category-title {
+      font-size: 24px;
+      color: #E0002B;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #E0002B;
+    }
+    
     .device-card {
       background: white;
       border: 1px solid #e0e0e0;
@@ -432,32 +444,59 @@
       return;
     }
 
-    // Wenn keine ID: Liste aller Geräte anzeigen
+    // Wenn keine ID: Liste aller Geräte nach Kategorien anzeigen
     if(!id){
-      document.getElementById('content').innerHTML = `
-        <h1 class="page-title">Alle Geräte</h1>
-        <div class="device-grid" id="device-grid"></div>
-      `;
-      
-      const grid = document.getElementById('device-grid');
+      // Group devices by category
+      const categories = {};
       for(const [key, g] of Object.entries(daten)){
-        const card = document.createElement('div');
-        card.className = 'device-card';
-        card.onclick = () => window.location.href = `?id=${key}`;
-        
-        const statusClass = g.status === 'verfügbar' ? 'status-available' : 
-                           g.status === 'defekt' ? 'status-defect' : 'status-borrowed';
-        
-        card.innerHTML = `
-          <div class="device-id">${key}</div>
-          <h3>${g.name}</h3>
-          <div class="device-location">📍 ${g.standort}</div>
-          <div class="device-status ${statusClass}">Status: ${g.status}</div>
-          <button class="copy-link-btn" onclick="event.stopPropagation(); copyDeviceLink('${key}')">
-            📋 Link kopieren
-          </button>
+        const category = g.kategorie || 'Unbekannt';
+        if(!categories[category]){
+          categories[category] = [];
+        }
+        categories[category].push([key, g]);
+      }
+      
+      let html = '<h1 class="page-title">Alle Geräte nach Kategorien</h1>';
+      
+      // Sort categories
+      const sortedCategories = Object.keys(categories).sort();
+      
+      for(const category of sortedCategories){
+        const devices = categories[category];
+        html += `
+          <div class="category-section">
+            <h2 class="category-title">${category} (${devices.length} Geräte)</h2>
+            <div class="device-grid" id="grid-${category.replace(/\s+/g, '-')}"></div>
+          </div>
         `;
-        grid.appendChild(card);
+      }
+      
+      document.getElementById('content').innerHTML = html;
+      
+      // Populate each category grid
+      for(const category of sortedCategories){
+        const devices = categories[category];
+        const grid = document.getElementById(`grid-${category.replace(/\s+/g, '-')}`);
+        
+        for(const [key, g] of devices){
+          const card = document.createElement('div');
+          card.className = 'device-card';
+          card.onclick = () => window.location.href = `?id=${key}`;
+          
+          const statusClass = g.status === 'verfügbar' ? 'status-available' : 
+                             g.status === 'defekt' ? 'status-defect' : 'status-borrowed';
+          
+          card.innerHTML = `
+            <div class="device-id">${key}</div>
+            <h3>${g.name}</h3>
+            <div class="device-location">📍 ${g.standort}</div>
+            <div class="device-status ${statusClass}">Status: ${g.status}</div>
+            <button class="copy-link-btn" onclick="event.stopPropagation(); copyDeviceLink('${key}')">
+              📋 Link kopieren
+            </button>
+          `;
+          grid.appendChild(card);
+        }
       }
       return;
     }
