@@ -1,152 +1,5402 @@
 {
-  "device1": {
+  "DEV001": {
     "name": "Device 1",
-    "standort": "Raum 1.02",
-    "status": "verfügbar"
+    "standort": "Raum 15.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category6"
   },
-  "device2": {
+  "DEV002": {
     "name": "Device 2",
-    "standort": "Raum 1.03",
-    "status": "verfügbar"
+    "standort": "Raum 13.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category3"
   },
-  "device3": {
+  "DEV003": {
     "name": "Device 3",
-    "standort": "Raum 1.04",
-    "status": "verfügbar"
+    "standort": "Raum 13.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
   },
-  "device4": {
+  "DEV004": {
     "name": "Device 4",
-    "standort": "Raum 1.05",
-    "status": "verfügbar"
+    "standort": "Raum 5.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category14"
   },
-  "device5": {
+  "DEV005": {
     "name": "Device 5",
-    "standort": "Raum 2.01",
-    "status": "verfügbar"
+    "standort": "Raum 13.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category11"
   },
-  "device6": {
+  "DEV006": {
     "name": "Device 6",
-    "standort": "Raum 2.02",
-    "status": "verfügbar"
+    "standort": "Raum 7.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
   },
-  "device7": {
+  "DEV007": {
     "name": "Device 7",
-    "standort": "Raum 2.03",
-    "status": "verfügbar"
+    "standort": "Raum 7.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
   },
-  "device8": {
+  "DEV008": {
     "name": "Device 8",
-    "standort": "Raum 2.04",
-    "status": "verfügbar"
+    "standort": "Raum 9.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
   },
-  "device9": {
+  "DEV009": {
     "name": "Device 9",
-    "standort": "Raum 2.05",
-    "status": "verfügbar"
+    "standort": "Raum 8.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category14"
   },
-  "device10": {
+  "DEV010": {
     "name": "Device 10",
-    "standort": "Raum 3.01",
-    "status": "verfügbar"
+    "standort": "Raum 18.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category9"
   },
-  "device11": {
+  "DEV011": {
     "name": "Device 11",
-    "standort": "Raum 3.02",
-    "status": "verfügbar"
+    "standort": "Raum 16.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
   },
-  "device12": {
+  "DEV012": {
     "name": "Device 12",
-    "standort": "Raum 3.03",
-    "status": "verfügbar"
+    "standort": "Raum 7.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
   },
-  "device13": {
+  "DEV013": {
     "name": "Device 13",
-    "standort": "Raum 3.04",
-    "status": "verfügbar"
+    "standort": "Raum 18.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category7"
   },
-  "device14": {
+  "DEV014": {
     "name": "Device 14",
-    "standort": "Raum 3.05",
-    "status": "verfügbar"
+    "standort": "Raum 20.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category12"
   },
-  "device15": {
+  "DEV015": {
     "name": "Device 15",
-    "standort": "Raum 4.01",
-    "status": "verfügbar"
+    "standort": "Raum 18.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
   },
-  "device16": {
+  "DEV016": {
     "name": "Device 16",
-    "standort": "Raum 4.02",
-    "status": "verfügbar"
+    "standort": "Raum 13.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category14"
   },
-  "device17": {
+  "DEV017": {
     "name": "Device 17",
-    "standort": "Raum 4.03",
-    "status": "verfügbar"
+    "standort": "Raum 13.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
   },
-  "device18": {
+  "DEV018": {
     "name": "Device 18",
-    "standort": "Raum 4.04",
-    "status": "verfügbar"
+    "standort": "Raum 3.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
   },
-  "device19": {
+  "DEV019": {
     "name": "Device 19",
-    "standort": "Raum 4.05",
-    "status": "verfügbar"
+    "standort": "Raum 17.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category14"
   },
-  "device20": {
+  "DEV020": {
     "name": "Device 20",
-    "standort": "Raum 5.01",
-    "status": "verfügbar"
+    "standort": "Raum 8.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category11"
   },
-  "device21": {
+  "DEV021": {
     "name": "Device 21",
-    "standort": "Raum 5.02",
-    "status": "verfügbar"
+    "standort": "Raum 1.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category7"
   },
-  "device22": {
+  "DEV022": {
     "name": "Device 22",
-    "standort": "Raum 5.03",
-    "status": "verfügbar"
+    "standort": "Raum 12.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
   },
-  "device23": {
+  "DEV023": {
     "name": "Device 23",
-    "standort": "Raum 5.04",
-    "status": "verfügbar"
+    "standort": "Raum 14.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category7"
   },
-  "device24": {
+  "DEV024": {
     "name": "Device 24",
-    "standort": "Raum 5.05",
-    "status": "verfügbar"
+    "standort": "Raum 16.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
   },
-  "device25": {
+  "DEV025": {
     "name": "Device 25",
-    "standort": "Raum 6.01",
-    "status": "verfügbar"
+    "standort": "Raum 14.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category2"
   },
-  "device26": {
+  "DEV026": {
     "name": "Device 26",
-    "standort": "Raum 6.02",
-    "status": "verfügbar"
+    "standort": "Raum 9.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
   },
-  "device27": {
+  "DEV027": {
     "name": "Device 27",
-    "standort": "Raum 6.03",
-    "status": "verfügbar"
+    "standort": "Raum 12.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category7"
   },
-  "device28": {
+  "DEV028": {
     "name": "Device 28",
-    "standort": "Raum 6.04",
-    "status": "verfügbar"
+    "standort": "Raum 10.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
   },
-  "device29": {
+  "DEV029": {
     "name": "Device 29",
-    "standort": "Raum 6.05",
-    "status": "verfügbar"
+    "standort": "Raum 1.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
   },
-  "device30": {
+  "DEV030": {
     "name": "Device 30",
-    "standort": "Raum 7.01",
-    "status": "verfügbar"
+    "standort": "Raum 13.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV031": {
+    "name": "Device 31",
+    "standort": "Raum 2.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV032": {
+    "name": "Device 32",
+    "standort": "Raum 18.02 Regal D",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV033": {
+    "name": "Device 33",
+    "standort": "Raum 17.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV034": {
+    "name": "Device 34",
+    "standort": "Raum 3.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV035": {
+    "name": "Device 35",
+    "standort": "Raum 9.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV036": {
+    "name": "Device 36",
+    "standort": "Raum 8.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV037": {
+    "name": "Device 37",
+    "standort": "Raum 3.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV038": {
+    "name": "Device 38",
+    "standort": "Raum 8.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV039": {
+    "name": "Device 39",
+    "standort": "Raum 2.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV040": {
+    "name": "Device 40",
+    "standort": "Raum 20.05 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV041": {
+    "name": "Device 41",
+    "standort": "Raum 8.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV042": {
+    "name": "Device 42",
+    "standort": "Raum 20.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV043": {
+    "name": "Device 43",
+    "standort": "Raum 13.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV044": {
+    "name": "Device 44",
+    "standort": "Raum 20.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV045": {
+    "name": "Device 45",
+    "standort": "Raum 15.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV046": {
+    "name": "Device 46",
+    "standort": "Raum 13.05 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV047": {
+    "name": "Device 47",
+    "standort": "Raum 14.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV048": {
+    "name": "Device 48",
+    "standort": "Raum 4.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV049": {
+    "name": "Device 49",
+    "standort": "Raum 3.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV050": {
+    "name": "Device 50",
+    "standort": "Raum 4.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV051": {
+    "name": "Device 51",
+    "standort": "Raum 6.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV052": {
+    "name": "Device 52",
+    "standort": "Raum 6.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV053": {
+    "name": "Device 53",
+    "standort": "Raum 16.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV054": {
+    "name": "Device 54",
+    "standort": "Raum 13.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV055": {
+    "name": "Device 55",
+    "standort": "Raum 5.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV056": {
+    "name": "Device 56",
+    "standort": "Raum 20.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV057": {
+    "name": "Device 57",
+    "standort": "Raum 19.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV058": {
+    "name": "Device 58",
+    "standort": "Raum 18.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV059": {
+    "name": "Device 59",
+    "standort": "Raum 10.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV060": {
+    "name": "Device 60",
+    "standort": "Raum 7.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV061": {
+    "name": "Device 61",
+    "standort": "Raum 3.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV062": {
+    "name": "Device 62",
+    "standort": "Raum 3.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV063": {
+    "name": "Device 63",
+    "standort": "Raum 13.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV064": {
+    "name": "Device 64",
+    "standort": "Raum 11.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV065": {
+    "name": "Device 65",
+    "standort": "Raum 6.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV066": {
+    "name": "Device 66",
+    "standort": "Raum 10.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV067": {
+    "name": "Device 67",
+    "standort": "Raum 15.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV068": {
+    "name": "Device 68",
+    "standort": "Raum 4.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV069": {
+    "name": "Device 69",
+    "standort": "Raum 16.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV070": {
+    "name": "Device 70",
+    "standort": "Raum 9.03 Regal D",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV071": {
+    "name": "Device 71",
+    "standort": "Raum 19.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV072": {
+    "name": "Device 72",
+    "standort": "Raum 19.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV073": {
+    "name": "Device 73",
+    "standort": "Raum 17.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV074": {
+    "name": "Device 74",
+    "standort": "Raum 10.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV075": {
+    "name": "Device 75",
+    "standort": "Raum 7.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV076": {
+    "name": "Device 76",
+    "standort": "Raum 19.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV077": {
+    "name": "Device 77",
+    "standort": "Raum 8.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV078": {
+    "name": "Device 78",
+    "standort": "Raum 17.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV079": {
+    "name": "Device 79",
+    "standort": "Raum 1.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV080": {
+    "name": "Device 80",
+    "standort": "Raum 16.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV081": {
+    "name": "Device 81",
+    "standort": "Raum 13.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV082": {
+    "name": "Device 82",
+    "standort": "Raum 14.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV083": {
+    "name": "Device 83",
+    "standort": "Raum 12.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV084": {
+    "name": "Device 84",
+    "standort": "Raum 16.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV085": {
+    "name": "Device 85",
+    "standort": "Raum 14.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV086": {
+    "name": "Device 86",
+    "standort": "Raum 10.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV087": {
+    "name": "Device 87",
+    "standort": "Raum 1.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV088": {
+    "name": "Device 88",
+    "standort": "Raum 8.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV089": {
+    "name": "Device 89",
+    "standort": "Raum 20.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV090": {
+    "name": "Device 90",
+    "standort": "Raum 20.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV091": {
+    "name": "Device 91",
+    "standort": "Raum 4.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV092": {
+    "name": "Device 92",
+    "standort": "Raum 15.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV093": {
+    "name": "Device 93",
+    "standort": "Raum 19.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV094": {
+    "name": "Device 94",
+    "standort": "Raum 20.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV095": {
+    "name": "Device 95",
+    "standort": "Raum 1.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV096": {
+    "name": "Device 96",
+    "standort": "Raum 4.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV097": {
+    "name": "Device 97",
+    "standort": "Raum 2.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV098": {
+    "name": "Device 98",
+    "standort": "Raum 13.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV099": {
+    "name": "Device 99",
+    "standort": "Raum 11.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV100": {
+    "name": "Device 100",
+    "standort": "Raum 5.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV101": {
+    "name": "Device 101",
+    "standort": "Raum 11.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV102": {
+    "name": "Device 102",
+    "standort": "Raum 14.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV103": {
+    "name": "Device 103",
+    "standort": "Raum 15.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV104": {
+    "name": "Device 104",
+    "standort": "Raum 12.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV105": {
+    "name": "Device 105",
+    "standort": "Raum 9.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV106": {
+    "name": "Device 106",
+    "standort": "Raum 2.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV107": {
+    "name": "Device 107",
+    "standort": "Raum 2.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV108": {
+    "name": "Device 108",
+    "standort": "Raum 16.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV109": {
+    "name": "Device 109",
+    "standort": "Raum 10.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV110": {
+    "name": "Device 110",
+    "standort": "Raum 15.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV111": {
+    "name": "Device 111",
+    "standort": "Raum 1.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV112": {
+    "name": "Device 112",
+    "standort": "Raum 6.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV113": {
+    "name": "Device 113",
+    "standort": "Raum 12.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV114": {
+    "name": "Device 114",
+    "standort": "Raum 19.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV115": {
+    "name": "Device 115",
+    "standort": "Raum 5.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV116": {
+    "name": "Device 116",
+    "standort": "Raum 7.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV117": {
+    "name": "Device 117",
+    "standort": "Raum 11.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV118": {
+    "name": "Device 118",
+    "standort": "Raum 19.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV119": {
+    "name": "Device 119",
+    "standort": "Raum 10.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV120": {
+    "name": "Device 120",
+    "standort": "Raum 5.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV121": {
+    "name": "Device 121",
+    "standort": "Raum 18.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV122": {
+    "name": "Device 122",
+    "standort": "Raum 17.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV123": {
+    "name": "Device 123",
+    "standort": "Raum 12.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV124": {
+    "name": "Device 124",
+    "standort": "Raum 4.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV125": {
+    "name": "Device 125",
+    "standort": "Raum 18.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV126": {
+    "name": "Device 126",
+    "standort": "Raum 2.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV127": {
+    "name": "Device 127",
+    "standort": "Raum 6.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV128": {
+    "name": "Device 128",
+    "standort": "Raum 13.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV129": {
+    "name": "Device 129",
+    "standort": "Raum 13.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV130": {
+    "name": "Device 130",
+    "standort": "Raum 8.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV131": {
+    "name": "Device 131",
+    "standort": "Raum 6.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV132": {
+    "name": "Device 132",
+    "standort": "Raum 18.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV133": {
+    "name": "Device 133",
+    "standort": "Raum 8.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV134": {
+    "name": "Device 134",
+    "standort": "Raum 6.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV135": {
+    "name": "Device 135",
+    "standort": "Raum 17.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV136": {
+    "name": "Device 136",
+    "standort": "Raum 13.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV137": {
+    "name": "Device 137",
+    "standort": "Raum 18.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV138": {
+    "name": "Device 138",
+    "standort": "Raum 18.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV139": {
+    "name": "Device 139",
+    "standort": "Raum 15.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV140": {
+    "name": "Device 140",
+    "standort": "Raum 16.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV141": {
+    "name": "Device 141",
+    "standort": "Raum 19.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV142": {
+    "name": "Device 142",
+    "standort": "Raum 15.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV143": {
+    "name": "Device 143",
+    "standort": "Raum 5.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV144": {
+    "name": "Device 144",
+    "standort": "Raum 1.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV145": {
+    "name": "Device 145",
+    "standort": "Raum 9.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV146": {
+    "name": "Device 146",
+    "standort": "Raum 10.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV147": {
+    "name": "Device 147",
+    "standort": "Raum 10.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV148": {
+    "name": "Device 148",
+    "standort": "Raum 10.04 Regal D",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV149": {
+    "name": "Device 149",
+    "standort": "Raum 8.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV150": {
+    "name": "Device 150",
+    "standort": "Raum 5.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV151": {
+    "name": "Device 151",
+    "standort": "Raum 7.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV152": {
+    "name": "Device 152",
+    "standort": "Raum 10.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV153": {
+    "name": "Device 153",
+    "standort": "Raum 6.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV154": {
+    "name": "Device 154",
+    "standort": "Raum 3.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV155": {
+    "name": "Device 155",
+    "standort": "Raum 19.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV156": {
+    "name": "Device 156",
+    "standort": "Raum 4.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV157": {
+    "name": "Device 157",
+    "standort": "Raum 4.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV158": {
+    "name": "Device 158",
+    "standort": "Raum 5.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV159": {
+    "name": "Device 159",
+    "standort": "Raum 17.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV160": {
+    "name": "Device 160",
+    "standort": "Raum 13.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV161": {
+    "name": "Device 161",
+    "standort": "Raum 13.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV162": {
+    "name": "Device 162",
+    "standort": "Raum 14.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV163": {
+    "name": "Device 163",
+    "standort": "Raum 6.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV164": {
+    "name": "Device 164",
+    "standort": "Raum 9.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV165": {
+    "name": "Device 165",
+    "standort": "Raum 9.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV166": {
+    "name": "Device 166",
+    "standort": "Raum 14.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV167": {
+    "name": "Device 167",
+    "standort": "Raum 2.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV168": {
+    "name": "Device 168",
+    "standort": "Raum 10.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV169": {
+    "name": "Device 169",
+    "standort": "Raum 3.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV170": {
+    "name": "Device 170",
+    "standort": "Raum 15.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV171": {
+    "name": "Device 171",
+    "standort": "Raum 11.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV172": {
+    "name": "Device 172",
+    "standort": "Raum 10.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV173": {
+    "name": "Device 173",
+    "standort": "Raum 14.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV174": {
+    "name": "Device 174",
+    "standort": "Raum 15.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV175": {
+    "name": "Device 175",
+    "standort": "Raum 19.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV176": {
+    "name": "Device 176",
+    "standort": "Raum 18.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV177": {
+    "name": "Device 177",
+    "standort": "Raum 6.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV178": {
+    "name": "Device 178",
+    "standort": "Raum 8.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV179": {
+    "name": "Device 179",
+    "standort": "Raum 19.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV180": {
+    "name": "Device 180",
+    "standort": "Raum 17.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV181": {
+    "name": "Device 181",
+    "standort": "Raum 2.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV182": {
+    "name": "Device 182",
+    "standort": "Raum 5.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV183": {
+    "name": "Device 183",
+    "standort": "Raum 3.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV184": {
+    "name": "Device 184",
+    "standort": "Raum 6.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV185": {
+    "name": "Device 185",
+    "standort": "Raum 19.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV186": {
+    "name": "Device 186",
+    "standort": "Raum 16.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV187": {
+    "name": "Device 187",
+    "standort": "Raum 12.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV188": {
+    "name": "Device 188",
+    "standort": "Raum 9.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV189": {
+    "name": "Device 189",
+    "standort": "Raum 18.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV190": {
+    "name": "Device 190",
+    "standort": "Raum 15.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV191": {
+    "name": "Device 191",
+    "standort": "Raum 4.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV192": {
+    "name": "Device 192",
+    "standort": "Raum 3.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV193": {
+    "name": "Device 193",
+    "standort": "Raum 6.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV194": {
+    "name": "Device 194",
+    "standort": "Raum 7.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV195": {
+    "name": "Device 195",
+    "standort": "Raum 8.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV196": {
+    "name": "Device 196",
+    "standort": "Raum 2.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV197": {
+    "name": "Device 197",
+    "standort": "Raum 13.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV198": {
+    "name": "Device 198",
+    "standort": "Raum 3.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV199": {
+    "name": "Device 199",
+    "standort": "Raum 18.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV200": {
+    "name": "Device 200",
+    "standort": "Raum 3.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV201": {
+    "name": "Device 201",
+    "standort": "Raum 6.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV202": {
+    "name": "Device 202",
+    "standort": "Raum 8.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV203": {
+    "name": "Device 203",
+    "standort": "Raum 3.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV204": {
+    "name": "Device 204",
+    "standort": "Raum 19.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV205": {
+    "name": "Device 205",
+    "standort": "Raum 18.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV206": {
+    "name": "Device 206",
+    "standort": "Raum 14.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV207": {
+    "name": "Device 207",
+    "standort": "Raum 5.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV208": {
+    "name": "Device 208",
+    "standort": "Raum 13.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV209": {
+    "name": "Device 209",
+    "standort": "Raum 19.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV210": {
+    "name": "Device 210",
+    "standort": "Raum 15.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV211": {
+    "name": "Device 211",
+    "standort": "Raum 6.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV212": {
+    "name": "Device 212",
+    "standort": "Raum 10.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV213": {
+    "name": "Device 213",
+    "standort": "Raum 8.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV214": {
+    "name": "Device 214",
+    "standort": "Raum 7.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV215": {
+    "name": "Device 215",
+    "standort": "Raum 13.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV216": {
+    "name": "Device 216",
+    "standort": "Raum 10.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV217": {
+    "name": "Device 217",
+    "standort": "Raum 18.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV218": {
+    "name": "Device 218",
+    "standort": "Raum 14.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV219": {
+    "name": "Device 219",
+    "standort": "Raum 1.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV220": {
+    "name": "Device 220",
+    "standort": "Raum 4.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV221": {
+    "name": "Device 221",
+    "standort": "Raum 19.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV222": {
+    "name": "Device 222",
+    "standort": "Raum 16.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV223": {
+    "name": "Device 223",
+    "standort": "Raum 17.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV224": {
+    "name": "Device 224",
+    "standort": "Raum 5.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV225": {
+    "name": "Device 225",
+    "standort": "Raum 19.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV226": {
+    "name": "Device 226",
+    "standort": "Raum 10.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV227": {
+    "name": "Device 227",
+    "standort": "Raum 19.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV228": {
+    "name": "Device 228",
+    "standort": "Raum 11.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV229": {
+    "name": "Device 229",
+    "standort": "Raum 9.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV230": {
+    "name": "Device 230",
+    "standort": "Raum 1.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV231": {
+    "name": "Device 231",
+    "standort": "Raum 4.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV232": {
+    "name": "Device 232",
+    "standort": "Raum 12.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV233": {
+    "name": "Device 233",
+    "standort": "Raum 4.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV234": {
+    "name": "Device 234",
+    "standort": "Raum 15.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV235": {
+    "name": "Device 235",
+    "standort": "Raum 19.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV236": {
+    "name": "Device 236",
+    "standort": "Raum 4.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV237": {
+    "name": "Device 237",
+    "standort": "Raum 2.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV238": {
+    "name": "Device 238",
+    "standort": "Raum 12.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV239": {
+    "name": "Device 239",
+    "standort": "Raum 20.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV240": {
+    "name": "Device 240",
+    "standort": "Raum 12.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV241": {
+    "name": "Device 241",
+    "standort": "Raum 17.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV242": {
+    "name": "Device 242",
+    "standort": "Raum 6.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV243": {
+    "name": "Device 243",
+    "standort": "Raum 6.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV244": {
+    "name": "Device 244",
+    "standort": "Raum 16.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV245": {
+    "name": "Device 245",
+    "standort": "Raum 10.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV246": {
+    "name": "Device 246",
+    "standort": "Raum 19.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV247": {
+    "name": "Device 247",
+    "standort": "Raum 4.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV248": {
+    "name": "Device 248",
+    "standort": "Raum 1.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV249": {
+    "name": "Device 249",
+    "standort": "Raum 6.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV250": {
+    "name": "Device 250",
+    "standort": "Raum 15.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV251": {
+    "name": "Device 251",
+    "standort": "Raum 13.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV252": {
+    "name": "Device 252",
+    "standort": "Raum 12.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV253": {
+    "name": "Device 253",
+    "standort": "Raum 13.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV254": {
+    "name": "Device 254",
+    "standort": "Raum 4.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV255": {
+    "name": "Device 255",
+    "standort": "Raum 4.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV256": {
+    "name": "Device 256",
+    "standort": "Raum 17.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV257": {
+    "name": "Device 257",
+    "standort": "Raum 20.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV258": {
+    "name": "Device 258",
+    "standort": "Raum 3.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV259": {
+    "name": "Device 259",
+    "standort": "Raum 7.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV260": {
+    "name": "Device 260",
+    "standort": "Raum 4.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV261": {
+    "name": "Device 261",
+    "standort": "Raum 6.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV262": {
+    "name": "Device 262",
+    "standort": "Raum 1.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV263": {
+    "name": "Device 263",
+    "standort": "Raum 16.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV264": {
+    "name": "Device 264",
+    "standort": "Raum 2.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV265": {
+    "name": "Device 265",
+    "standort": "Raum 19.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV266": {
+    "name": "Device 266",
+    "standort": "Raum 19.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV267": {
+    "name": "Device 267",
+    "standort": "Raum 18.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV268": {
+    "name": "Device 268",
+    "standort": "Raum 12.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV269": {
+    "name": "Device 269",
+    "standort": "Raum 18.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV270": {
+    "name": "Device 270",
+    "standort": "Raum 5.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV271": {
+    "name": "Device 271",
+    "standort": "Raum 19.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV272": {
+    "name": "Device 272",
+    "standort": "Raum 10.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV273": {
+    "name": "Device 273",
+    "standort": "Raum 9.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV274": {
+    "name": "Device 274",
+    "standort": "Raum 15.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV275": {
+    "name": "Device 275",
+    "standort": "Raum 16.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV276": {
+    "name": "Device 276",
+    "standort": "Raum 17.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV277": {
+    "name": "Device 277",
+    "standort": "Raum 16.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV278": {
+    "name": "Device 278",
+    "standort": "Raum 11.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV279": {
+    "name": "Device 279",
+    "standort": "Raum 19.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV280": {
+    "name": "Device 280",
+    "standort": "Raum 15.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV281": {
+    "name": "Device 281",
+    "standort": "Raum 6.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV282": {
+    "name": "Device 282",
+    "standort": "Raum 5.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV283": {
+    "name": "Device 283",
+    "standort": "Raum 15.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV284": {
+    "name": "Device 284",
+    "standort": "Raum 17.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV285": {
+    "name": "Device 285",
+    "standort": "Raum 5.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV286": {
+    "name": "Device 286",
+    "standort": "Raum 9.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV287": {
+    "name": "Device 287",
+    "standort": "Raum 1.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV288": {
+    "name": "Device 288",
+    "standort": "Raum 7.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV289": {
+    "name": "Device 289",
+    "standort": "Raum 5.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV290": {
+    "name": "Device 290",
+    "standort": "Raum 2.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV291": {
+    "name": "Device 291",
+    "standort": "Raum 4.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV292": {
+    "name": "Device 292",
+    "standort": "Raum 7.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV293": {
+    "name": "Device 293",
+    "standort": "Raum 5.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV294": {
+    "name": "Device 294",
+    "standort": "Raum 1.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV295": {
+    "name": "Device 295",
+    "standort": "Raum 16.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV296": {
+    "name": "Device 296",
+    "standort": "Raum 20.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV297": {
+    "name": "Device 297",
+    "standort": "Raum 13.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV298": {
+    "name": "Device 298",
+    "standort": "Raum 9.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV299": {
+    "name": "Device 299",
+    "standort": "Raum 15.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV300": {
+    "name": "Device 300",
+    "standort": "Raum 6.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV301": {
+    "name": "Device 301",
+    "standort": "Raum 2.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV302": {
+    "name": "Device 302",
+    "standort": "Raum 3.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV303": {
+    "name": "Device 303",
+    "standort": "Raum 8.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV304": {
+    "name": "Device 304",
+    "standort": "Raum 20.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV305": {
+    "name": "Device 305",
+    "standort": "Raum 8.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV306": {
+    "name": "Device 306",
+    "standort": "Raum 1.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV307": {
+    "name": "Device 307",
+    "standort": "Raum 2.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV308": {
+    "name": "Device 308",
+    "standort": "Raum 11.03 Regal D",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV309": {
+    "name": "Device 309",
+    "standort": "Raum 18.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV310": {
+    "name": "Device 310",
+    "standort": "Raum 19.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV311": {
+    "name": "Device 311",
+    "standort": "Raum 11.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV312": {
+    "name": "Device 312",
+    "standort": "Raum 14.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV313": {
+    "name": "Device 313",
+    "standort": "Raum 8.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV314": {
+    "name": "Device 314",
+    "standort": "Raum 6.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV315": {
+    "name": "Device 315",
+    "standort": "Raum 19.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV316": {
+    "name": "Device 316",
+    "standort": "Raum 3.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV317": {
+    "name": "Device 317",
+    "standort": "Raum 6.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV318": {
+    "name": "Device 318",
+    "standort": "Raum 5.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV319": {
+    "name": "Device 319",
+    "standort": "Raum 11.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV320": {
+    "name": "Device 320",
+    "standort": "Raum 15.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV321": {
+    "name": "Device 321",
+    "standort": "Raum 1.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV322": {
+    "name": "Device 322",
+    "standort": "Raum 20.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV323": {
+    "name": "Device 323",
+    "standort": "Raum 7.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV324": {
+    "name": "Device 324",
+    "standort": "Raum 5.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV325": {
+    "name": "Device 325",
+    "standort": "Raum 10.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV326": {
+    "name": "Device 326",
+    "standort": "Raum 2.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV327": {
+    "name": "Device 327",
+    "standort": "Raum 4.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV328": {
+    "name": "Device 328",
+    "standort": "Raum 2.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV329": {
+    "name": "Device 329",
+    "standort": "Raum 7.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV330": {
+    "name": "Device 330",
+    "standort": "Raum 19.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV331": {
+    "name": "Device 331",
+    "standort": "Raum 15.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV332": {
+    "name": "Device 332",
+    "standort": "Raum 8.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV333": {
+    "name": "Device 333",
+    "standort": "Raum 5.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV334": {
+    "name": "Device 334",
+    "standort": "Raum 11.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV335": {
+    "name": "Device 335",
+    "standort": "Raum 12.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV336": {
+    "name": "Device 336",
+    "standort": "Raum 14.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV337": {
+    "name": "Device 337",
+    "standort": "Raum 6.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV338": {
+    "name": "Device 338",
+    "standort": "Raum 16.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV339": {
+    "name": "Device 339",
+    "standort": "Raum 17.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV340": {
+    "name": "Device 340",
+    "standort": "Raum 16.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV341": {
+    "name": "Device 341",
+    "standort": "Raum 10.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV342": {
+    "name": "Device 342",
+    "standort": "Raum 11.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV343": {
+    "name": "Device 343",
+    "standort": "Raum 1.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV344": {
+    "name": "Device 344",
+    "standort": "Raum 17.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV345": {
+    "name": "Device 345",
+    "standort": "Raum 14.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV346": {
+    "name": "Device 346",
+    "standort": "Raum 14.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV347": {
+    "name": "Device 347",
+    "standort": "Raum 15.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV348": {
+    "name": "Device 348",
+    "standort": "Raum 17.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV349": {
+    "name": "Device 349",
+    "standort": "Raum 13.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV350": {
+    "name": "Device 350",
+    "standort": "Raum 18.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV351": {
+    "name": "Device 351",
+    "standort": "Raum 1.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV352": {
+    "name": "Device 352",
+    "standort": "Raum 20.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV353": {
+    "name": "Device 353",
+    "standort": "Raum 18.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV354": {
+    "name": "Device 354",
+    "standort": "Raum 2.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV355": {
+    "name": "Device 355",
+    "standort": "Raum 4.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV356": {
+    "name": "Device 356",
+    "standort": "Raum 12.05 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV357": {
+    "name": "Device 357",
+    "standort": "Raum 7.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV358": {
+    "name": "Device 358",
+    "standort": "Raum 11.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV359": {
+    "name": "Device 359",
+    "standort": "Raum 8.02 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV360": {
+    "name": "Device 360",
+    "standort": "Raum 1.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV361": {
+    "name": "Device 361",
+    "standort": "Raum 10.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV362": {
+    "name": "Device 362",
+    "standort": "Raum 1.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV363": {
+    "name": "Device 363",
+    "standort": "Raum 1.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV364": {
+    "name": "Device 364",
+    "standort": "Raum 9.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV365": {
+    "name": "Device 365",
+    "standort": "Raum 18.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV366": {
+    "name": "Device 366",
+    "standort": "Raum 3.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV367": {
+    "name": "Device 367",
+    "standort": "Raum 12.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV368": {
+    "name": "Device 368",
+    "standort": "Raum 16.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV369": {
+    "name": "Device 369",
+    "standort": "Raum 10.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV370": {
+    "name": "Device 370",
+    "standort": "Raum 2.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV371": {
+    "name": "Device 371",
+    "standort": "Raum 5.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV372": {
+    "name": "Device 372",
+    "standort": "Raum 11.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV373": {
+    "name": "Device 373",
+    "standort": "Raum 3.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV374": {
+    "name": "Device 374",
+    "standort": "Raum 14.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV375": {
+    "name": "Device 375",
+    "standort": "Raum 4.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV376": {
+    "name": "Device 376",
+    "standort": "Raum 14.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV377": {
+    "name": "Device 377",
+    "standort": "Raum 15.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV378": {
+    "name": "Device 378",
+    "standort": "Raum 14.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV379": {
+    "name": "Device 379",
+    "standort": "Raum 18.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV380": {
+    "name": "Device 380",
+    "standort": "Raum 15.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV381": {
+    "name": "Device 381",
+    "standort": "Raum 17.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV382": {
+    "name": "Device 382",
+    "standort": "Raum 20.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV383": {
+    "name": "Device 383",
+    "standort": "Raum 16.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV384": {
+    "name": "Device 384",
+    "standort": "Raum 10.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV385": {
+    "name": "Device 385",
+    "standort": "Raum 10.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV386": {
+    "name": "Device 386",
+    "standort": "Raum 20.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV387": {
+    "name": "Device 387",
+    "standort": "Raum 11.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV388": {
+    "name": "Device 388",
+    "standort": "Raum 6.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV389": {
+    "name": "Device 389",
+    "standort": "Raum 16.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV390": {
+    "name": "Device 390",
+    "standort": "Raum 11.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV391": {
+    "name": "Device 391",
+    "standort": "Raum 3.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV392": {
+    "name": "Device 392",
+    "standort": "Raum 19.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV393": {
+    "name": "Device 393",
+    "standort": "Raum 6.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV394": {
+    "name": "Device 394",
+    "standort": "Raum 1.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV395": {
+    "name": "Device 395",
+    "standort": "Raum 13.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV396": {
+    "name": "Device 396",
+    "standort": "Raum 14.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV397": {
+    "name": "Device 397",
+    "standort": "Raum 18.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV398": {
+    "name": "Device 398",
+    "standort": "Raum 15.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV399": {
+    "name": "Device 399",
+    "standort": "Raum 13.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV400": {
+    "name": "Device 400",
+    "standort": "Raum 3.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV401": {
+    "name": "Device 401",
+    "standort": "Raum 17.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV402": {
+    "name": "Device 402",
+    "standort": "Raum 13.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV403": {
+    "name": "Device 403",
+    "standort": "Raum 8.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV404": {
+    "name": "Device 404",
+    "standort": "Raum 20.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV405": {
+    "name": "Device 405",
+    "standort": "Raum 20.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV406": {
+    "name": "Device 406",
+    "standort": "Raum 1.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV407": {
+    "name": "Device 407",
+    "standort": "Raum 20.05 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV408": {
+    "name": "Device 408",
+    "standort": "Raum 10.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV409": {
+    "name": "Device 409",
+    "standort": "Raum 17.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV410": {
+    "name": "Device 410",
+    "standort": "Raum 7.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV411": {
+    "name": "Device 411",
+    "standort": "Raum 11.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV412": {
+    "name": "Device 412",
+    "standort": "Raum 10.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV413": {
+    "name": "Device 413",
+    "standort": "Raum 13.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV414": {
+    "name": "Device 414",
+    "standort": "Raum 11.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV415": {
+    "name": "Device 415",
+    "standort": "Raum 12.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV416": {
+    "name": "Device 416",
+    "standort": "Raum 18.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV417": {
+    "name": "Device 417",
+    "standort": "Raum 17.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV418": {
+    "name": "Device 418",
+    "standort": "Raum 10.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV419": {
+    "name": "Device 419",
+    "standort": "Raum 13.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV420": {
+    "name": "Device 420",
+    "standort": "Raum 5.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV421": {
+    "name": "Device 421",
+    "standort": "Raum 17.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV422": {
+    "name": "Device 422",
+    "standort": "Raum 6.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV423": {
+    "name": "Device 423",
+    "standort": "Raum 11.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV424": {
+    "name": "Device 424",
+    "standort": "Raum 12.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV425": {
+    "name": "Device 425",
+    "standort": "Raum 16.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV426": {
+    "name": "Device 426",
+    "standort": "Raum 13.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV427": {
+    "name": "Device 427",
+    "standort": "Raum 4.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV428": {
+    "name": "Device 428",
+    "standort": "Raum 15.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV429": {
+    "name": "Device 429",
+    "standort": "Raum 16.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV430": {
+    "name": "Device 430",
+    "standort": "Raum 3.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV431": {
+    "name": "Device 431",
+    "standort": "Raum 19.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV432": {
+    "name": "Device 432",
+    "standort": "Raum 5.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV433": {
+    "name": "Device 433",
+    "standort": "Raum 10.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV434": {
+    "name": "Device 434",
+    "standort": "Raum 17.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV435": {
+    "name": "Device 435",
+    "standort": "Raum 15.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV436": {
+    "name": "Device 436",
+    "standort": "Raum 17.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV437": {
+    "name": "Device 437",
+    "standort": "Raum 8.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV438": {
+    "name": "Device 438",
+    "standort": "Raum 10.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV439": {
+    "name": "Device 439",
+    "standort": "Raum 2.04 Regal D",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV440": {
+    "name": "Device 440",
+    "standort": "Raum 1.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV441": {
+    "name": "Device 441",
+    "standort": "Raum 14.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV442": {
+    "name": "Device 442",
+    "standort": "Raum 16.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV443": {
+    "name": "Device 443",
+    "standort": "Raum 9.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV444": {
+    "name": "Device 444",
+    "standort": "Raum 11.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV445": {
+    "name": "Device 445",
+    "standort": "Raum 7.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV446": {
+    "name": "Device 446",
+    "standort": "Raum 17.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV447": {
+    "name": "Device 447",
+    "standort": "Raum 7.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV448": {
+    "name": "Device 448",
+    "standort": "Raum 5.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV449": {
+    "name": "Device 449",
+    "standort": "Raum 5.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV450": {
+    "name": "Device 450",
+    "standort": "Raum 2.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV451": {
+    "name": "Device 451",
+    "standort": "Raum 1.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV452": {
+    "name": "Device 452",
+    "standort": "Raum 5.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV453": {
+    "name": "Device 453",
+    "standort": "Raum 16.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV454": {
+    "name": "Device 454",
+    "standort": "Raum 12.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV455": {
+    "name": "Device 455",
+    "standort": "Raum 1.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV456": {
+    "name": "Device 456",
+    "standort": "Raum 15.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV457": {
+    "name": "Device 457",
+    "standort": "Raum 20.03 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV458": {
+    "name": "Device 458",
+    "standort": "Raum 20.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV459": {
+    "name": "Device 459",
+    "standort": "Raum 2.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV460": {
+    "name": "Device 460",
+    "standort": "Raum 5.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV461": {
+    "name": "Device 461",
+    "standort": "Raum 3.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV462": {
+    "name": "Device 462",
+    "standort": "Raum 14.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV463": {
+    "name": "Device 463",
+    "standort": "Raum 5.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV464": {
+    "name": "Device 464",
+    "standort": "Raum 14.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV465": {
+    "name": "Device 465",
+    "standort": "Raum 2.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV466": {
+    "name": "Device 466",
+    "standort": "Raum 16.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV467": {
+    "name": "Device 467",
+    "standort": "Raum 6.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV468": {
+    "name": "Device 468",
+    "standort": "Raum 1.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV469": {
+    "name": "Device 469",
+    "standort": "Raum 12.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV470": {
+    "name": "Device 470",
+    "standort": "Raum 13.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV471": {
+    "name": "Device 471",
+    "standort": "Raum 13.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV472": {
+    "name": "Device 472",
+    "standort": "Raum 20.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV473": {
+    "name": "Device 473",
+    "standort": "Raum 10.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV474": {
+    "name": "Device 474",
+    "standort": "Raum 17.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV475": {
+    "name": "Device 475",
+    "standort": "Raum 1.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV476": {
+    "name": "Device 476",
+    "standort": "Raum 18.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV477": {
+    "name": "Device 477",
+    "standort": "Raum 14.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV478": {
+    "name": "Device 478",
+    "standort": "Raum 2.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV479": {
+    "name": "Device 479",
+    "standort": "Raum 10.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV480": {
+    "name": "Device 480",
+    "standort": "Raum 19.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV481": {
+    "name": "Device 481",
+    "standort": "Raum 15.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV482": {
+    "name": "Device 482",
+    "standort": "Raum 9.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV483": {
+    "name": "Device 483",
+    "standort": "Raum 17.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV484": {
+    "name": "Device 484",
+    "standort": "Raum 9.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV485": {
+    "name": "Device 485",
+    "standort": "Raum 9.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV486": {
+    "name": "Device 486",
+    "standort": "Raum 18.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV487": {
+    "name": "Device 487",
+    "standort": "Raum 20.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV488": {
+    "name": "Device 488",
+    "standort": "Raum 3.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV489": {
+    "name": "Device 489",
+    "standort": "Raum 6.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV490": {
+    "name": "Device 490",
+    "standort": "Raum 17.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV491": {
+    "name": "Device 491",
+    "standort": "Raum 15.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV492": {
+    "name": "Device 492",
+    "standort": "Raum 20.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV493": {
+    "name": "Device 493",
+    "standort": "Raum 17.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV494": {
+    "name": "Device 494",
+    "standort": "Raum 7.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV495": {
+    "name": "Device 495",
+    "standort": "Raum 2.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV496": {
+    "name": "Device 496",
+    "standort": "Raum 4.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV497": {
+    "name": "Device 497",
+    "standort": "Raum 19.02 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV498": {
+    "name": "Device 498",
+    "standort": "Raum 11.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV499": {
+    "name": "Device 499",
+    "standort": "Raum 9.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV500": {
+    "name": "Device 500",
+    "standort": "Raum 20.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV501": {
+    "name": "Device 501",
+    "standort": "Raum 11.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV502": {
+    "name": "Device 502",
+    "standort": "Raum 9.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV503": {
+    "name": "Device 503",
+    "standort": "Raum 15.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV504": {
+    "name": "Device 504",
+    "standort": "Raum 4.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV505": {
+    "name": "Device 505",
+    "standort": "Raum 15.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV506": {
+    "name": "Device 506",
+    "standort": "Raum 10.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV507": {
+    "name": "Device 507",
+    "standort": "Raum 5.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV508": {
+    "name": "Device 508",
+    "standort": "Raum 17.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV509": {
+    "name": "Device 509",
+    "standort": "Raum 10.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV510": {
+    "name": "Device 510",
+    "standort": "Raum 4.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV511": {
+    "name": "Device 511",
+    "standort": "Raum 9.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV512": {
+    "name": "Device 512",
+    "standort": "Raum 10.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV513": {
+    "name": "Device 513",
+    "standort": "Raum 10.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV514": {
+    "name": "Device 514",
+    "standort": "Raum 1.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV515": {
+    "name": "Device 515",
+    "standort": "Raum 8.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV516": {
+    "name": "Device 516",
+    "standort": "Raum 4.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV517": {
+    "name": "Device 517",
+    "standort": "Raum 3.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV518": {
+    "name": "Device 518",
+    "standort": "Raum 16.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV519": {
+    "name": "Device 519",
+    "standort": "Raum 3.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV520": {
+    "name": "Device 520",
+    "standort": "Raum 4.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV521": {
+    "name": "Device 521",
+    "standort": "Raum 12.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV522": {
+    "name": "Device 522",
+    "standort": "Raum 16.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV523": {
+    "name": "Device 523",
+    "standort": "Raum 12.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV524": {
+    "name": "Device 524",
+    "standort": "Raum 19.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV525": {
+    "name": "Device 525",
+    "standort": "Raum 16.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV526": {
+    "name": "Device 526",
+    "standort": "Raum 17.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV527": {
+    "name": "Device 527",
+    "standort": "Raum 20.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV528": {
+    "name": "Device 528",
+    "standort": "Raum 14.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV529": {
+    "name": "Device 529",
+    "standort": "Raum 4.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV530": {
+    "name": "Device 530",
+    "standort": "Raum 16.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV531": {
+    "name": "Device 531",
+    "standort": "Raum 15.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV532": {
+    "name": "Device 532",
+    "standort": "Raum 20.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV533": {
+    "name": "Device 533",
+    "standort": "Raum 16.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV534": {
+    "name": "Device 534",
+    "standort": "Raum 11.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV535": {
+    "name": "Device 535",
+    "standort": "Raum 6.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV536": {
+    "name": "Device 536",
+    "standort": "Raum 15.05 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV537": {
+    "name": "Device 537",
+    "standort": "Raum 19.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV538": {
+    "name": "Device 538",
+    "standort": "Raum 11.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV539": {
+    "name": "Device 539",
+    "standort": "Raum 17.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV540": {
+    "name": "Device 540",
+    "standort": "Raum 15.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV541": {
+    "name": "Device 541",
+    "standort": "Raum 9.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV542": {
+    "name": "Device 542",
+    "standort": "Raum 13.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV543": {
+    "name": "Device 543",
+    "standort": "Raum 2.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV544": {
+    "name": "Device 544",
+    "standort": "Raum 20.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV545": {
+    "name": "Device 545",
+    "standort": "Raum 10.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV546": {
+    "name": "Device 546",
+    "standort": "Raum 15.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV547": {
+    "name": "Device 547",
+    "standort": "Raum 18.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV548": {
+    "name": "Device 548",
+    "standort": "Raum 1.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV549": {
+    "name": "Device 549",
+    "standort": "Raum 7.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV550": {
+    "name": "Device 550",
+    "standort": "Raum 18.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV551": {
+    "name": "Device 551",
+    "standort": "Raum 5.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV552": {
+    "name": "Device 552",
+    "standort": "Raum 16.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV553": {
+    "name": "Device 553",
+    "standort": "Raum 8.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV554": {
+    "name": "Device 554",
+    "standort": "Raum 15.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV555": {
+    "name": "Device 555",
+    "standort": "Raum 10.03 Regal D",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV556": {
+    "name": "Device 556",
+    "standort": "Raum 9.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV557": {
+    "name": "Device 557",
+    "standort": "Raum 19.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV558": {
+    "name": "Device 558",
+    "standort": "Raum 16.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV559": {
+    "name": "Device 559",
+    "standort": "Raum 6.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV560": {
+    "name": "Device 560",
+    "standort": "Raum 19.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV561": {
+    "name": "Device 561",
+    "standort": "Raum 1.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV562": {
+    "name": "Device 562",
+    "standort": "Raum 10.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category7"
+  },
+  "DEV563": {
+    "name": "Device 563",
+    "standort": "Raum 20.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV564": {
+    "name": "Device 564",
+    "standort": "Raum 7.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV565": {
+    "name": "Device 565",
+    "standort": "Raum 16.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV566": {
+    "name": "Device 566",
+    "standort": "Raum 7.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV567": {
+    "name": "Device 567",
+    "standort": "Raum 10.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV568": {
+    "name": "Device 568",
+    "standort": "Raum 15.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV569": {
+    "name": "Device 569",
+    "standort": "Raum 10.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV570": {
+    "name": "Device 570",
+    "standort": "Raum 3.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV571": {
+    "name": "Device 571",
+    "standort": "Raum 16.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV572": {
+    "name": "Device 572",
+    "standort": "Raum 6.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV573": {
+    "name": "Device 573",
+    "standort": "Raum 6.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV574": {
+    "name": "Device 574",
+    "standort": "Raum 18.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV575": {
+    "name": "Device 575",
+    "standort": "Raum 11.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV576": {
+    "name": "Device 576",
+    "standort": "Raum 14.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV577": {
+    "name": "Device 577",
+    "standort": "Raum 15.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV578": {
+    "name": "Device 578",
+    "standort": "Raum 9.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV579": {
+    "name": "Device 579",
+    "standort": "Raum 1.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV580": {
+    "name": "Device 580",
+    "standort": "Raum 10.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV581": {
+    "name": "Device 581",
+    "standort": "Raum 20.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV582": {
+    "name": "Device 582",
+    "standort": "Raum 13.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV583": {
+    "name": "Device 583",
+    "standort": "Raum 9.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV584": {
+    "name": "Device 584",
+    "standort": "Raum 14.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV585": {
+    "name": "Device 585",
+    "standort": "Raum 7.03 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV586": {
+    "name": "Device 586",
+    "standort": "Raum 13.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV587": {
+    "name": "Device 587",
+    "standort": "Raum 6.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV588": {
+    "name": "Device 588",
+    "standort": "Raum 13.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV589": {
+    "name": "Device 589",
+    "standort": "Raum 15.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV590": {
+    "name": "Device 590",
+    "standort": "Raum 17.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV591": {
+    "name": "Device 591",
+    "standort": "Raum 12.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV592": {
+    "name": "Device 592",
+    "standort": "Raum 9.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV593": {
+    "name": "Device 593",
+    "standort": "Raum 12.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV594": {
+    "name": "Device 594",
+    "standort": "Raum 11.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV595": {
+    "name": "Device 595",
+    "standort": "Raum 8.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV596": {
+    "name": "Device 596",
+    "standort": "Raum 13.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV597": {
+    "name": "Device 597",
+    "standort": "Raum 12.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV598": {
+    "name": "Device 598",
+    "standort": "Raum 11.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV599": {
+    "name": "Device 599",
+    "standort": "Raum 1.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV600": {
+    "name": "Device 600",
+    "standort": "Raum 9.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV601": {
+    "name": "Device 601",
+    "standort": "Raum 6.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV602": {
+    "name": "Device 602",
+    "standort": "Raum 7.01 Regal A",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV603": {
+    "name": "Device 603",
+    "standort": "Raum 20.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV604": {
+    "name": "Device 604",
+    "standort": "Raum 4.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV605": {
+    "name": "Device 605",
+    "standort": "Raum 19.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV606": {
+    "name": "Device 606",
+    "standort": "Raum 19.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV607": {
+    "name": "Device 607",
+    "standort": "Raum 8.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV608": {
+    "name": "Device 608",
+    "standort": "Raum 8.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV609": {
+    "name": "Device 609",
+    "standort": "Raum 12.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV610": {
+    "name": "Device 610",
+    "standort": "Raum 2.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV611": {
+    "name": "Device 611",
+    "standort": "Raum 12.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV612": {
+    "name": "Device 612",
+    "standort": "Raum 8.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV613": {
+    "name": "Device 613",
+    "standort": "Raum 8.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV614": {
+    "name": "Device 614",
+    "standort": "Raum 9.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV615": {
+    "name": "Device 615",
+    "standort": "Raum 12.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV616": {
+    "name": "Device 616",
+    "standort": "Raum 14.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV617": {
+    "name": "Device 617",
+    "standort": "Raum 11.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV618": {
+    "name": "Device 618",
+    "standort": "Raum 5.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV619": {
+    "name": "Device 619",
+    "standort": "Raum 6.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV620": {
+    "name": "Device 620",
+    "standort": "Raum 9.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV621": {
+    "name": "Device 621",
+    "standort": "Raum 13.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV622": {
+    "name": "Device 622",
+    "standort": "Raum 11.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV623": {
+    "name": "Device 623",
+    "standort": "Raum 2.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV624": {
+    "name": "Device 624",
+    "standort": "Raum 4.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV625": {
+    "name": "Device 625",
+    "standort": "Raum 2.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV626": {
+    "name": "Device 626",
+    "standort": "Raum 19.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV627": {
+    "name": "Device 627",
+    "standort": "Raum 8.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV628": {
+    "name": "Device 628",
+    "standort": "Raum 13.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV629": {
+    "name": "Device 629",
+    "standort": "Raum 14.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV630": {
+    "name": "Device 630",
+    "standort": "Raum 13.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV631": {
+    "name": "Device 631",
+    "standort": "Raum 13.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV632": {
+    "name": "Device 632",
+    "standort": "Raum 5.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV633": {
+    "name": "Device 633",
+    "standort": "Raum 20.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV634": {
+    "name": "Device 634",
+    "standort": "Raum 14.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV635": {
+    "name": "Device 635",
+    "standort": "Raum 20.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV636": {
+    "name": "Device 636",
+    "standort": "Raum 13.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category12"
+  },
+  "DEV637": {
+    "name": "Device 637",
+    "standort": "Raum 18.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV638": {
+    "name": "Device 638",
+    "standort": "Raum 20.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV639": {
+    "name": "Device 639",
+    "standort": "Raum 11.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV640": {
+    "name": "Device 640",
+    "standort": "Raum 6.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV641": {
+    "name": "Device 641",
+    "standort": "Raum 13.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV642": {
+    "name": "Device 642",
+    "standort": "Raum 2.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV643": {
+    "name": "Device 643",
+    "standort": "Raum 1.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV644": {
+    "name": "Device 644",
+    "standort": "Raum 3.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV645": {
+    "name": "Device 645",
+    "standort": "Raum 9.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV646": {
+    "name": "Device 646",
+    "standort": "Raum 13.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV647": {
+    "name": "Device 647",
+    "standort": "Raum 16.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV648": {
+    "name": "Device 648",
+    "standort": "Raum 5.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV649": {
+    "name": "Device 649",
+    "standort": "Raum 11.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV650": {
+    "name": "Device 650",
+    "standort": "Raum 20.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV651": {
+    "name": "Device 651",
+    "standort": "Raum 11.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV652": {
+    "name": "Device 652",
+    "standort": "Raum 20.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV653": {
+    "name": "Device 653",
+    "standort": "Raum 5.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV654": {
+    "name": "Device 654",
+    "standort": "Raum 15.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV655": {
+    "name": "Device 655",
+    "standort": "Raum 15.05 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV656": {
+    "name": "Device 656",
+    "standort": "Raum 8.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV657": {
+    "name": "Device 657",
+    "standort": "Raum 2.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV658": {
+    "name": "Device 658",
+    "standort": "Raum 8.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV659": {
+    "name": "Device 659",
+    "standort": "Raum 17.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV660": {
+    "name": "Device 660",
+    "standort": "Raum 15.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV661": {
+    "name": "Device 661",
+    "standort": "Raum 6.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV662": {
+    "name": "Device 662",
+    "standort": "Raum 6.04 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV663": {
+    "name": "Device 663",
+    "standort": "Raum 15.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV664": {
+    "name": "Device 664",
+    "standort": "Raum 3.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV665": {
+    "name": "Device 665",
+    "standort": "Raum 16.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV666": {
+    "name": "Device 666",
+    "standort": "Raum 10.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV667": {
+    "name": "Device 667",
+    "standort": "Raum 10.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV668": {
+    "name": "Device 668",
+    "standort": "Raum 16.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV669": {
+    "name": "Device 669",
+    "standort": "Raum 17.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV670": {
+    "name": "Device 670",
+    "standort": "Raum 13.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV671": {
+    "name": "Device 671",
+    "standort": "Raum 19.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV672": {
+    "name": "Device 672",
+    "standort": "Raum 5.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV673": {
+    "name": "Device 673",
+    "standort": "Raum 17.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV674": {
+    "name": "Device 674",
+    "standort": "Raum 13.01 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV675": {
+    "name": "Device 675",
+    "standort": "Raum 18.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV676": {
+    "name": "Device 676",
+    "standort": "Raum 6.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV677": {
+    "name": "Device 677",
+    "standort": "Raum 18.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV678": {
+    "name": "Device 678",
+    "standort": "Raum 18.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV679": {
+    "name": "Device 679",
+    "standort": "Raum 2.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV680": {
+    "name": "Device 680",
+    "standort": "Raum 7.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV681": {
+    "name": "Device 681",
+    "standort": "Raum 19.04 Regal B",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV682": {
+    "name": "Device 682",
+    "standort": "Raum 11.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV683": {
+    "name": "Device 683",
+    "standort": "Raum 5.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV684": {
+    "name": "Device 684",
+    "standort": "Raum 8.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV685": {
+    "name": "Device 685",
+    "standort": "Raum 20.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV686": {
+    "name": "Device 686",
+    "standort": "Raum 9.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV687": {
+    "name": "Device 687",
+    "standort": "Raum 14.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV688": {
+    "name": "Device 688",
+    "standort": "Raum 2.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV689": {
+    "name": "Device 689",
+    "standort": "Raum 16.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV690": {
+    "name": "Device 690",
+    "standort": "Raum 6.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV691": {
+    "name": "Device 691",
+    "standort": "Raum 3.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV692": {
+    "name": "Device 692",
+    "standort": "Raum 7.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV693": {
+    "name": "Device 693",
+    "standort": "Raum 13.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV694": {
+    "name": "Device 694",
+    "standort": "Raum 7.04 Regal D",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV695": {
+    "name": "Device 695",
+    "standort": "Raum 11.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV696": {
+    "name": "Device 696",
+    "standort": "Raum 7.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV697": {
+    "name": "Device 697",
+    "standort": "Raum 12.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category15"
+  },
+  "DEV698": {
+    "name": "Device 698",
+    "standort": "Raum 4.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV699": {
+    "name": "Device 699",
+    "standort": "Raum 3.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV700": {
+    "name": "Device 700",
+    "standort": "Raum 13.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV701": {
+    "name": "Device 701",
+    "standort": "Raum 2.03 Regal C",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV702": {
+    "name": "Device 702",
+    "standort": "Raum 9.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV703": {
+    "name": "Device 703",
+    "standort": "Raum 19.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV704": {
+    "name": "Device 704",
+    "standort": "Raum 18.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV705": {
+    "name": "Device 705",
+    "standort": "Raum 7.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV706": {
+    "name": "Device 706",
+    "standort": "Raum 2.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV707": {
+    "name": "Device 707",
+    "standort": "Raum 5.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV708": {
+    "name": "Device 708",
+    "standort": "Raum 4.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV709": {
+    "name": "Device 709",
+    "standort": "Raum 14.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV710": {
+    "name": "Device 710",
+    "standort": "Raum 15.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV711": {
+    "name": "Device 711",
+    "standort": "Raum 12.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV712": {
+    "name": "Device 712",
+    "standort": "Raum 14.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV713": {
+    "name": "Device 713",
+    "standort": "Raum 15.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV714": {
+    "name": "Device 714",
+    "standort": "Raum 15.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV715": {
+    "name": "Device 715",
+    "standort": "Raum 20.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV716": {
+    "name": "Device 716",
+    "standort": "Raum 15.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV717": {
+    "name": "Device 717",
+    "standort": "Raum 3.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV718": {
+    "name": "Device 718",
+    "standort": "Raum 1.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV719": {
+    "name": "Device 719",
+    "standort": "Raum 19.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV720": {
+    "name": "Device 720",
+    "standort": "Raum 7.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV721": {
+    "name": "Device 721",
+    "standort": "Raum 2.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV722": {
+    "name": "Device 722",
+    "standort": "Raum 4.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV723": {
+    "name": "Device 723",
+    "standort": "Raum 13.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV724": {
+    "name": "Device 724",
+    "standort": "Raum 2.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV725": {
+    "name": "Device 725",
+    "standort": "Raum 10.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV726": {
+    "name": "Device 726",
+    "standort": "Raum 6.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV727": {
+    "name": "Device 727",
+    "standort": "Raum 8.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV728": {
+    "name": "Device 728",
+    "standort": "Raum 5.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV729": {
+    "name": "Device 729",
+    "standort": "Raum 9.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV730": {
+    "name": "Device 730",
+    "standort": "Raum 20.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV731": {
+    "name": "Device 731",
+    "standort": "Raum 10.01 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category3"
+  },
+  "DEV732": {
+    "name": "Device 732",
+    "standort": "Raum 1.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV733": {
+    "name": "Device 733",
+    "standort": "Raum 3.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV734": {
+    "name": "Device 734",
+    "standort": "Raum 10.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV735": {
+    "name": "Device 735",
+    "standort": "Raum 12.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV736": {
+    "name": "Device 736",
+    "standort": "Raum 2.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV737": {
+    "name": "Device 737",
+    "standort": "Raum 4.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV738": {
+    "name": "Device 738",
+    "standort": "Raum 17.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV739": {
+    "name": "Device 739",
+    "standort": "Raum 7.03 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV740": {
+    "name": "Device 740",
+    "standort": "Raum 14.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV741": {
+    "name": "Device 741",
+    "standort": "Raum 3.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV742": {
+    "name": "Device 742",
+    "standort": "Raum 7.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV743": {
+    "name": "Device 743",
+    "standort": "Raum 3.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV744": {
+    "name": "Device 744",
+    "standort": "Raum 17.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV745": {
+    "name": "Device 745",
+    "standort": "Raum 16.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV746": {
+    "name": "Device 746",
+    "standort": "Raum 16.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV747": {
+    "name": "Device 747",
+    "standort": "Raum 3.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV748": {
+    "name": "Device 748",
+    "standort": "Raum 8.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category1"
+  },
+  "DEV749": {
+    "name": "Device 749",
+    "standort": "Raum 18.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV750": {
+    "name": "Device 750",
+    "standort": "Raum 6.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV751": {
+    "name": "Device 751",
+    "standort": "Raum 20.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV752": {
+    "name": "Device 752",
+    "standort": "Raum 6.03 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV753": {
+    "name": "Device 753",
+    "standort": "Raum 4.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV754": {
+    "name": "Device 754",
+    "standort": "Raum 7.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV755": {
+    "name": "Device 755",
+    "standort": "Raum 6.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV756": {
+    "name": "Device 756",
+    "standort": "Raum 17.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV757": {
+    "name": "Device 757",
+    "standort": "Raum 20.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV758": {
+    "name": "Device 758",
+    "standort": "Raum 8.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV759": {
+    "name": "Device 759",
+    "standort": "Raum 16.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV760": {
+    "name": "Device 760",
+    "standort": "Raum 6.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV761": {
+    "name": "Device 761",
+    "standort": "Raum 4.02 Regal A",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV762": {
+    "name": "Device 762",
+    "standort": "Raum 7.01 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV763": {
+    "name": "Device 763",
+    "standort": "Raum 16.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV764": {
+    "name": "Device 764",
+    "standort": "Raum 2.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV765": {
+    "name": "Device 765",
+    "standort": "Raum 6.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV766": {
+    "name": "Device 766",
+    "standort": "Raum 19.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category4"
+  },
+  "DEV767": {
+    "name": "Device 767",
+    "standort": "Raum 18.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV768": {
+    "name": "Device 768",
+    "standort": "Raum 3.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV769": {
+    "name": "Device 769",
+    "standort": "Raum 19.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category4"
+  },
+  "DEV770": {
+    "name": "Device 770",
+    "standort": "Raum 12.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV771": {
+    "name": "Device 771",
+    "standort": "Raum 9.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV772": {
+    "name": "Device 772",
+    "standort": "Raum 2.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV773": {
+    "name": "Device 773",
+    "standort": "Raum 19.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV774": {
+    "name": "Device 774",
+    "standort": "Raum 3.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV775": {
+    "name": "Device 775",
+    "standort": "Raum 14.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV776": {
+    "name": "Device 776",
+    "standort": "Raum 20.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV777": {
+    "name": "Device 777",
+    "standort": "Raum 11.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV778": {
+    "name": "Device 778",
+    "standort": "Raum 12.05 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV779": {
+    "name": "Device 779",
+    "standort": "Raum 14.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category13"
+  },
+  "DEV780": {
+    "name": "Device 780",
+    "standort": "Raum 6.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV781": {
+    "name": "Device 781",
+    "standort": "Raum 15.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV782": {
+    "name": "Device 782",
+    "standort": "Raum 9.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV783": {
+    "name": "Device 783",
+    "standort": "Raum 8.03 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV784": {
+    "name": "Device 784",
+    "standort": "Raum 6.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV785": {
+    "name": "Device 785",
+    "standort": "Raum 16.01 Regal A",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV786": {
+    "name": "Device 786",
+    "standort": "Raum 3.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV787": {
+    "name": "Device 787",
+    "standort": "Raum 18.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV788": {
+    "name": "Device 788",
+    "standort": "Raum 5.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV789": {
+    "name": "Device 789",
+    "standort": "Raum 9.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV790": {
+    "name": "Device 790",
+    "standort": "Raum 17.05 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV791": {
+    "name": "Device 791",
+    "standort": "Raum 18.05 Regal A",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV792": {
+    "name": "Device 792",
+    "standort": "Raum 14.04 Regal A",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV793": {
+    "name": "Device 793",
+    "standort": "Raum 9.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV794": {
+    "name": "Device 794",
+    "standort": "Raum 6.04 Regal A",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV795": {
+    "name": "Device 795",
+    "standort": "Raum 13.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV796": {
+    "name": "Device 796",
+    "standort": "Raum 7.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV797": {
+    "name": "Device 797",
+    "standort": "Raum 16.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV798": {
+    "name": "Device 798",
+    "standort": "Raum 12.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV799": {
+    "name": "Device 799",
+    "standort": "Raum 12.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV800": {
+    "name": "Device 800",
+    "standort": "Raum 5.05 Regal D",
+    "status": "defekt",
+    "kategorie": "Category1"
+  },
+  "DEV801": {
+    "name": "Device 801",
+    "standort": "Raum 1.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category11"
+  },
+  "DEV802": {
+    "name": "Device 802",
+    "standort": "Raum 13.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV803": {
+    "name": "Device 803",
+    "standort": "Raum 20.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV804": {
+    "name": "Device 804",
+    "standort": "Raum 5.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV805": {
+    "name": "Device 805",
+    "standort": "Raum 1.01 Regal D",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV806": {
+    "name": "Device 806",
+    "standort": "Raum 18.04 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV807": {
+    "name": "Device 807",
+    "standort": "Raum 11.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV808": {
+    "name": "Device 808",
+    "standort": "Raum 8.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV809": {
+    "name": "Device 809",
+    "standort": "Raum 2.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category6"
+  },
+  "DEV810": {
+    "name": "Device 810",
+    "standort": "Raum 3.03 Regal A",
+    "status": "wartung",
+    "kategorie": "Category12"
+  },
+  "DEV811": {
+    "name": "Device 811",
+    "standort": "Raum 8.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category9"
+  },
+  "DEV812": {
+    "name": "Device 812",
+    "standort": "Raum 15.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV813": {
+    "name": "Device 813",
+    "standort": "Raum 19.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV814": {
+    "name": "Device 814",
+    "standort": "Raum 10.01 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV815": {
+    "name": "Device 815",
+    "standort": "Raum 5.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category12"
+  },
+  "DEV816": {
+    "name": "Device 816",
+    "standort": "Raum 8.05 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV817": {
+    "name": "Device 817",
+    "standort": "Raum 15.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV818": {
+    "name": "Device 818",
+    "standort": "Raum 19.04 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV819": {
+    "name": "Device 819",
+    "standort": "Raum 1.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV820": {
+    "name": "Device 820",
+    "standort": "Raum 17.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV821": {
+    "name": "Device 821",
+    "standort": "Raum 20.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV822": {
+    "name": "Device 822",
+    "standort": "Raum 4.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV823": {
+    "name": "Device 823",
+    "standort": "Raum 7.02 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category7"
+  },
+  "DEV824": {
+    "name": "Device 824",
+    "standort": "Raum 9.04 Regal D",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV825": {
+    "name": "Device 825",
+    "standort": "Raum 7.05 Regal D",
+    "status": "wartung",
+    "kategorie": "Category11"
+  },
+  "DEV826": {
+    "name": "Device 826",
+    "standort": "Raum 17.04 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV827": {
+    "name": "Device 827",
+    "standort": "Raum 19.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV828": {
+    "name": "Device 828",
+    "standort": "Raum 7.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV829": {
+    "name": "Device 829",
+    "standort": "Raum 3.05 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV830": {
+    "name": "Device 830",
+    "standort": "Raum 16.03 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV831": {
+    "name": "Device 831",
+    "standort": "Raum 20.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV832": {
+    "name": "Device 832",
+    "standort": "Raum 7.02 Regal C",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV833": {
+    "name": "Device 833",
+    "standort": "Raum 19.03 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV834": {
+    "name": "Device 834",
+    "standort": "Raum 18.03 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category3"
+  },
+  "DEV835": {
+    "name": "Device 835",
+    "standort": "Raum 8.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category2"
+  },
+  "DEV836": {
+    "name": "Device 836",
+    "standort": "Raum 16.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV837": {
+    "name": "Device 837",
+    "standort": "Raum 8.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV838": {
+    "name": "Device 838",
+    "standort": "Raum 13.05 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category1"
+  },
+  "DEV839": {
+    "name": "Device 839",
+    "standort": "Raum 5.03 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV840": {
+    "name": "Device 840",
+    "standort": "Raum 19.01 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV841": {
+    "name": "Device 841",
+    "standort": "Raum 14.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV842": {
+    "name": "Device 842",
+    "standort": "Raum 5.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category5"
+  },
+  "DEV843": {
+    "name": "Device 843",
+    "standort": "Raum 13.04 Regal D",
+    "status": "ausgeliehen",
+    "kategorie": "Category7"
+  },
+  "DEV844": {
+    "name": "Device 844",
+    "standort": "Raum 14.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category5"
+  },
+  "DEV845": {
+    "name": "Device 845",
+    "standort": "Raum 2.04 Regal B",
+    "status": "defekt",
+    "kategorie": "Category8"
+  },
+  "DEV846": {
+    "name": "Device 846",
+    "standort": "Raum 5.05 Regal C",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV847": {
+    "name": "Device 847",
+    "standort": "Raum 12.01 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV848": {
+    "name": "Device 848",
+    "standort": "Raum 16.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category15"
+  },
+  "DEV849": {
+    "name": "Device 849",
+    "standort": "Raum 1.05 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category2"
+  },
+  "DEV850": {
+    "name": "Device 850",
+    "standort": "Raum 18.04 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category10"
+  },
+  "DEV851": {
+    "name": "Device 851",
+    "standort": "Raum 3.01 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV852": {
+    "name": "Device 852",
+    "standort": "Raum 9.03 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category9"
+  },
+  "DEV853": {
+    "name": "Device 853",
+    "standort": "Raum 9.04 Regal C",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV854": {
+    "name": "Device 854",
+    "standort": "Raum 7.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV855": {
+    "name": "Device 855",
+    "standort": "Raum 9.02 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category1"
+  },
+  "DEV856": {
+    "name": "Device 856",
+    "standort": "Raum 5.03 Regal A",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV857": {
+    "name": "Device 857",
+    "standort": "Raum 18.01 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category15"
+  },
+  "DEV858": {
+    "name": "Device 858",
+    "standort": "Raum 2.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category5"
+  },
+  "DEV859": {
+    "name": "Device 859",
+    "standort": "Raum 11.05 Regal C",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV860": {
+    "name": "Device 860",
+    "standort": "Raum 18.05 Regal A",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV861": {
+    "name": "Device 861",
+    "standort": "Raum 3.05 Regal B",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV862": {
+    "name": "Device 862",
+    "standort": "Raum 19.02 Regal B",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV863": {
+    "name": "Device 863",
+    "standort": "Raum 16.04 Regal D",
+    "status": "defekt",
+    "kategorie": "Category3"
+  },
+  "DEV864": {
+    "name": "Device 864",
+    "standort": "Raum 16.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category6"
+  },
+  "DEV865": {
+    "name": "Device 865",
+    "standort": "Raum 2.01 Regal B",
+    "status": "defekt",
+    "kategorie": "Category9"
+  },
+  "DEV866": {
+    "name": "Device 866",
+    "standort": "Raum 10.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category2"
+  },
+  "DEV867": {
+    "name": "Device 867",
+    "standort": "Raum 6.02 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV868": {
+    "name": "Device 868",
+    "standort": "Raum 2.03 Regal B",
+    "status": "wartung",
+    "kategorie": "Category14"
+  },
+  "DEV869": {
+    "name": "Device 869",
+    "standort": "Raum 19.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV870": {
+    "name": "Device 870",
+    "standort": "Raum 2.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category15"
+  },
+  "DEV871": {
+    "name": "Device 871",
+    "standort": "Raum 12.03 Regal D",
+    "status": "wartung",
+    "kategorie": "Category5"
+  },
+  "DEV872": {
+    "name": "Device 872",
+    "standort": "Raum 2.01 Regal B",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV873": {
+    "name": "Device 873",
+    "standort": "Raum 20.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV874": {
+    "name": "Device 874",
+    "standort": "Raum 3.02 Regal A",
+    "status": "wartung",
+    "kategorie": "Category2"
+  },
+  "DEV875": {
+    "name": "Device 875",
+    "standort": "Raum 6.02 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category6"
+  },
+  "DEV876": {
+    "name": "Device 876",
+    "standort": "Raum 15.02 Regal B",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV877": {
+    "name": "Device 877",
+    "standort": "Raum 1.04 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category11"
+  },
+  "DEV878": {
+    "name": "Device 878",
+    "standort": "Raum 16.04 Regal C",
+    "status": "defekt",
+    "kategorie": "Category7"
+  },
+  "DEV879": {
+    "name": "Device 879",
+    "standort": "Raum 11.02 Regal A",
+    "status": "ausgeliehen",
+    "kategorie": "Category14"
+  },
+  "DEV880": {
+    "name": "Device 880",
+    "standort": "Raum 1.04 Regal B",
+    "status": "verfügbar",
+    "kategorie": "Category4"
+  },
+  "DEV881": {
+    "name": "Device 881",
+    "standort": "Raum 17.03 Regal B",
+    "status": "defekt",
+    "kategorie": "Category14"
+  },
+  "DEV882": {
+    "name": "Device 882",
+    "standort": "Raum 19.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV883": {
+    "name": "Device 883",
+    "standort": "Raum 8.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category3"
+  },
+  "DEV884": {
+    "name": "Device 884",
+    "standort": "Raum 6.05 Regal A",
+    "status": "verfügbar",
+    "kategorie": "Category8"
+  },
+  "DEV885": {
+    "name": "Device 885",
+    "standort": "Raum 16.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV886": {
+    "name": "Device 886",
+    "standort": "Raum 3.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category13"
+  },
+  "DEV887": {
+    "name": "Device 887",
+    "standort": "Raum 8.02 Regal D",
+    "status": "wartung",
+    "kategorie": "Category9"
+  },
+  "DEV888": {
+    "name": "Device 888",
+    "standort": "Raum 18.01 Regal C",
+    "status": "wartung",
+    "kategorie": "Category8"
+  },
+  "DEV889": {
+    "name": "Device 889",
+    "standort": "Raum 3.02 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category8"
+  },
+  "DEV890": {
+    "name": "Device 890",
+    "standort": "Raum 17.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category4"
+  },
+  "DEV891": {
+    "name": "Device 891",
+    "standort": "Raum 5.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category10"
+  },
+  "DEV892": {
+    "name": "Device 892",
+    "standort": "Raum 5.04 Regal C",
+    "status": "verfügbar",
+    "kategorie": "Category14"
+  },
+  "DEV893": {
+    "name": "Device 893",
+    "standort": "Raum 7.02 Regal C",
+    "status": "defekt",
+    "kategorie": "Category13"
+  },
+  "DEV894": {
+    "name": "Device 894",
+    "standort": "Raum 1.02 Regal D",
+    "status": "defekt",
+    "kategorie": "Category10"
+  },
+  "DEV895": {
+    "name": "Device 895",
+    "standort": "Raum 20.01 Regal C",
+    "status": "ausgeliehen",
+    "kategorie": "Category11"
+  },
+  "DEV896": {
+    "name": "Device 896",
+    "standort": "Raum 12.01 Regal D",
+    "status": "defekt",
+    "kategorie": "Category12"
+  },
+  "DEV897": {
+    "name": "Device 897",
+    "standort": "Raum 3.05 Regal B",
+    "status": "wartung",
+    "kategorie": "Category10"
+  },
+  "DEV898": {
+    "name": "Device 898",
+    "standort": "Raum 19.03 Regal C",
+    "status": "defekt",
+    "kategorie": "Category6"
+  },
+  "DEV899": {
+    "name": "Device 899",
+    "standort": "Raum 2.03 Regal D",
+    "status": "verfügbar",
+    "kategorie": "Category13"
+  },
+  "DEV900": {
+    "name": "Device 900",
+    "standort": "Raum 15.02 Regal B",
+    "status": "wartung",
+    "kategorie": "Category7"
   }
 }
