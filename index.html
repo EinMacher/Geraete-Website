@@ -190,6 +190,61 @@
       border-bottom: 2px solid #E0002B;
     }
     
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    
+    .category-card {
+      background: white;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .category-card:hover {
+      border-color: #E0002B;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 25px rgba(224,0,43,0.2);
+    }
+    
+    .category-card h3 {
+      color: #E0002B;
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .device-count {
+      color: #666;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    
+    .back-btn {
+      background: #f8f9fa;
+      border: 1px solid #e0e0e0;
+      color: #666;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 30px;
+      transition: all 0.3s;
+    }
+    
+    .back-btn:hover {
+      background: #E0002B;
+      color: white;
+      border-color: #E0002B;
+    }
+    
     .device-card {
       background: white;
       border: 1px solid #e0e0e0;
@@ -444,41 +499,30 @@
       return;
     }
 
-    // Wenn keine ID: Liste aller Geräte nach Kategorien anzeigen
+    // Wenn keine ID: Kategorien-Übersicht anzeigen
     if(!id){
-      // Group devices by category
-      const categories = {};
-      for(const [key, g] of Object.entries(daten)){
-        const category = g.kategorie || 'Unbekannt';
-        if(!categories[category]){
-          categories[category] = [];
+      // Check if we're viewing a specific category
+      const category = new URLSearchParams(location.search).get('category');
+      
+      if(category){
+        // Show devices for specific category
+        const categoryDevices = [];
+        for(const [key, g] of Object.entries(daten)){
+          if(g.kategorie === category){
+            categoryDevices.push([key, g]);
+          }
         }
-        categories[category].push([key, g]);
-      }
-      
-      let html = '<h1 class="page-title">Alle Geräte nach Kategorien</h1>';
-      
-      // Sort categories
-      const sortedCategories = Object.keys(categories).sort();
-      
-      for(const category of sortedCategories){
-        const devices = categories[category];
-        html += `
-          <div class="category-section">
-            <h2 class="category-title">${category} (${devices.length} Geräte)</h2>
-            <div class="device-grid" id="grid-${category.replace(/\s+/g, '-')}"></div>
-          </div>
-        `;
-      }
-      
-      document.getElementById('content').innerHTML = html;
-      
-      // Populate each category grid
-      for(const category of sortedCategories){
-        const devices = categories[category];
-        const grid = document.getElementById(`grid-${category.replace(/\s+/g, '-')}`);
         
-        for(const [key, g] of devices){
+        let html = `
+          <h1 class="page-title">${category} - ${categoryDevices.length} Geräte</h1>
+          <button class="back-btn" onclick="window.location.href='?'">← Zurück zu Kategorien</button>
+          <div class="device-grid" id="device-grid"></div>
+        `;
+        
+        document.getElementById('content').innerHTML = html;
+        
+        const grid = document.getElementById('device-grid');
+        for(const [key, g] of categoryDevices){
           const card = document.createElement('div');
           card.className = 'device-card';
           card.onclick = () => window.location.href = `?id=${key}`;
@@ -497,7 +541,36 @@
           `;
           grid.appendChild(card);
         }
+        return;
       }
+      
+      // Show category overview
+      const categories = {};
+      for(const [key, g] of Object.entries(daten)){
+        const cat = g.kategorie || 'Unbekannt';
+        if(!categories[cat]){
+          categories[cat] = 0;
+        }
+        categories[cat]++;
+      }
+      
+      let html = '<h1 class="page-title">Gerätekategorien</h1><div class="category-grid">';
+      
+      // Sort categories
+      const sortedCategories = Object.keys(categories).sort();
+      
+      for(const cat of sortedCategories){
+        const count = categories[cat];
+        html += `
+          <div class="category-card" onclick="window.location.href='?category=${encodeURIComponent(cat)}'">
+            <h3>${cat}</h3>
+            <div class="device-count">${count} Geräte</div>
+          </div>
+        `;
+      }
+      
+      html += '</div>';
+      document.getElementById('content').innerHTML = html;
       return;
     }
 
